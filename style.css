@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "TildaSansBold";
+    src: url('materials/fonts/TildaSans/TildaSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "TildaSansRegular";
+    src: url('materials/fonts/TildaSans/TildaSans-Regular.ttf');
+}
+
+.page-body {
+    font-family: "TildaSansBold";
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container{
+    margin-top: 40px;
+    width: 100%;
+    height: 20%;
+    border-style: solid;
+    border-color: rgb(22, 199, 199);
+    border-width: 2px;
+}
+
+.navbar {
+    padding: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    border-style: solid;
+    border-color: rgb(22, 199, 199);
+    border-width: 0px;
+}
+
+
+.navbar-link {
+    font-size: 25px;
+    padding-right: 10px;
+    max-height: 25px;
+    word-break: keep-all;
+}
+
+.navbar-input {
+    outline: 0;
+    border-radius: 15px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-color: #FF9235;
+    border-style: solid;
+    height: 35px;
+}
+
+
+.navbar-input:focus {
+    border-radius: 15px;
+    border-color: #bb681f;
+    background-color:#5DD9C8;
+    opacity: 33%;
+}
