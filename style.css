@@ -8,19 +8,31 @@
     src: url('materials/fonts/TildaSans/TildaSans-Regular.ttf');
 }
 
+
 .page-body {
-    font-family: "TildaSansBold";
+    font-family: "TildaSansRegular";
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.navbar-container{
-    margin-top: 40px;
+h1 {
+    font-size: 54px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+.navbar-container {
     width: 100%;
     height: 20%;
     border-style: solid;
     border-color: rgb(22, 199, 199);
-    border-width: 2px;
+    border-width: 0px;
 }
 
 .navbar {
@@ -41,13 +53,18 @@
 
 
 .navbar-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 3%;
     font-size: 25px;
     padding-right: 10px;
     max-height: 25px;
     word-break: keep-all;
+    font-family: "TildaSansBold";
 }
 
 .navbar-input {
+    margin-top: 3%;
     outline: 0;
     border-radius: 15px;
     padding-left: 10px;
@@ -64,3 +81,84 @@
     background-color:#5DD9C8;
     opacity: 33%;
 }
+
+.page-info-me {
+    margin: 0;
+    margin-top: 4%;
+    width: 60%;
+    text-align: center;
+}
+
+.page-info-can {
+    margin-top: 4%;
+}
+
+.page-info-pic {
+    width: 60%;
+}
+
+.page-info-about-skills {
+    width: 100%;
+    height: 400px;
+    background-color: #5DD9C8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-info-about-me {
+    width: 40%;
+}
+
+.face-container {
+    margin: 0;
+    margin-top: -5%;
+    padding: 0;
+}
+
+.myface {
+    margin: 0;
+    border-radius: 15px;
+    border-color: #5DD9C8;
+    border-style: solid;
+    border-image-outset: 0cm;
+    height: 500px;
+}
+
+.page-info-skills {
+    margin: 0;
+    margin-top: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.page-info-my-stack {
+    border-radius: 15px;
+    border-color: #5DD9C8;
+    border-style: solid;
+    width: 1000px;
+    height: 800px;
+}
+
+
+
+.examples-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    width: 50%;
+}
+
+.project-example-1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border-color: #8063A6;
+    border-style: solid;
+}
+
